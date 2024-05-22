@@ -44,7 +44,7 @@
     padding: 0;
     margin: 0;
     font-family:"ShipporiMincho-Regular", sans-serif;
-    color:#0D0D0D;
+    color:#3A3730;
     background-color:#F2F2F2 ;
     scroll-behavior: smooth;
 }
@@ -138,13 +138,49 @@ width: 80%;
     border-radius: 2px;
 }
 
+
+/* STYLE FOR ALL SECTIONS*/
 .content-section{
-    height:1000px;
-    background: repeating-linear-gradient(
-     45deg,
-     #606dbc,
-     #606dbc 10px,
-     #465298 10px,
-     #465298 20px
-   );
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
+
+.subsection-title {
+    width: 40%;
+}
+
+.subsection-img{
+    width: 90%;
+    height: inherit;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.subsection-text{
+    width: 60%;
+    padding-left: 20px;
+    border-left: #72513E 1px solid;
+    text-align: justify;
+}
+.content-section h2 {
+    font-family: "ShipporiMincho-Bold";
+    font-size: 45px;
+    color:#9D9652;
+}
+
+.content-section li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.span-styling{
+    font-family: "ShipporiMincho-ExtraBold";
+    color: #9D9652;
+}
+
+
