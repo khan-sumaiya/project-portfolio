@@ -1,0 +1,150 @@
+ /*Color Theme Swatches in Hex - use these:
+.Architectural-studio-branding-⎯-©ARCSTUDIO-1-hex { color: #6A736D; } = light khaki
+.Architectural-studio-branding-⎯-©ARCSTUDIO-2-hex { color: #54594F; } = khaki
+.Architectural-studio-branding-⎯-©ARCSTUDIO-3-hex { color: #F2F2F2; } = white
+.Architectural-studio-branding-⎯-©ARCSTUDIO-4-hex { color: #A6A6A6; } = gray
+.project-portfolio-4-hex { color: #9D9652; } = lime
+
+
+ Color Theme Swatches in Hex 
+.project-portfolio-1-hex { color: #4B493C; } = dark green
+.project-portfolio-2-hex { color: #737329; } = light green
+.project-portfolio-3-hex { color: #BFA77A; } = beige
+.project-portfolio-5-hex { color: #72513E; } = brown
+.Architectural-studio-branding-⎯-©ARCSTUDIO-5-hex { color: #0D0D0D; } = black 
+
+
+/* ShipporiMincho font-family */
+ @font-face {
+    font-family:  "ShipporiMincho-ExtraBold";
+    src: url(./fonts/ShipporiMincho-ExtraBold.ttf);
+ }
+
+ @font-face {
+    font-family:  "ShipporiMincho-Bold";
+    src: url(./fonts/ShipporiMincho-Bold.ttf);
+ }
+
+ @font-face {
+    font-family:  "ShipporiMincho-SemiBold";
+    src: url(./fonts/ShipporiMincho-SemiBold.ttf);
+ }
+
+ @font-face {
+    font-family:  "ShipporiMincho-Medium";
+    src: url(./fonts/ShipporiMincho-Medium.ttf);
+ }
+
+ @font-face {
+    font-family:  "ShipporiMincho-Regular";
+    src: url(./fonts/ShipporiMincho-Regular.ttf);
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"ShipporiMincho-Regular", sans-serif;
+    color:#0D0D0D;
+    background-color:#F2F2F2 ;
+    scroll-behavior: smooth;
+}
+
+
+/*Navigation bar*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    padding: 10px 0px;    
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6A736D;
+    font-family: "ShipporiMincho-SemiBold", serif;
+    padding: 0px 10px;
+}
+
+nav a:hover,  .icons:hover{
+    transform: scale(1.05);
+    color: #9D9652;
+}
+
+nav .icons {
+    color:#6A736D;
+}
+
+
+/* Banner */
+.banner {
+    margin: auto;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+    height: 640px;
+    padding-bottom: 100px;
+}
+
+.banner-text {
+text-align: left;
+display: flex;
+justify-content:space-evenly;
+height: 200px;
+flex-direction: column;
+}
+
+h1 {
+    color: #54594F;
+    font-family:  "ShipporiMincho-ExtraBold", serif;
+    font-size: 50px;
+}
+
+.banner-text p{
+color: #9D9652;
+width: 80%;
+}
+
+.banner-options{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.banner-options a{
+    margin: 20px 50px 10px 0px;
+    text-decoration: none;
+}
+
+.banner-options div{
+    background-color:#6A736D;
+    color: #F2F2F2;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.banner-options div:hover{
+    background-color:#9D9652;
+}
+
+.banner-img {
+    height:250px;
+    border-radius: 2px;
+}
+
+.content-section{
+    height:1000px;
+    background: repeating-linear-gradient(
+     45deg,
+     #606dbc,
+     #606dbc 10px,
+     #465298 10px,
+     #465298 20px
+   );
+}
