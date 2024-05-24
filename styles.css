@@ -147,7 +147,7 @@ width: 80%;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .subsection-title {
@@ -183,4 +183,8 @@ width: 80%;
     color: #9D9652;
 }
 
-
+/*CONTACT SECTION*/
+.contact-styling{
+padding-right: 5px;
+color: #9D9652;
+}
