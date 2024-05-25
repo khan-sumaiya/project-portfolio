@@ -16,175 +16,241 @@
 
 /* ShipporiMincho font-family */
  @font-face {
-    font-family:  "ShipporiMincho-ExtraBold";
-    src: url(./fonts/ShipporiMincho-ExtraBold.ttf);
+     font-family: "ShipporiMincho-ExtraBold";
+     src: url(./fonts/ShipporiMincho-ExtraBold.ttf);
  }
 
  @font-face {
-    font-family:  "ShipporiMincho-Bold";
-    src: url(./fonts/ShipporiMincho-Bold.ttf);
+     font-family: "ShipporiMincho-Bold";
+     src: url(./fonts/ShipporiMincho-Bold.ttf);
  }
 
  @font-face {
-    font-family:  "ShipporiMincho-SemiBold";
-    src: url(./fonts/ShipporiMincho-SemiBold.ttf);
+     font-family: "ShipporiMincho-SemiBold";
+     src: url(./fonts/ShipporiMincho-SemiBold.ttf);
  }
 
  @font-face {
-    font-family:  "ShipporiMincho-Medium";
-    src: url(./fonts/ShipporiMincho-Medium.ttf);
+     font-family: "ShipporiMincho-Medium";
+     src: url(./fonts/ShipporiMincho-Medium.ttf);
  }
 
  @font-face {
-    font-family:  "ShipporiMincho-Regular";
-    src: url(./fonts/ShipporiMincho-Regular.ttf);
+     font-family: "ShipporiMincho-Regular";
+     src: url(./fonts/ShipporiMincho-Regular.ttf);
  }
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family:"ShipporiMincho-Regular", sans-serif;
-    color:#3A3730;
-    background-color:#F2F2F2 ;
-    scroll-behavior: smooth;
+ * {
+     padding: 0;
+     margin: 0;
+     scroll-behavior: smooth;
+ }
+
+ body {
+     background-color: #F2F2F2;
+     font-family: "ShipporiMincho-Regular", sans-serif;
+     color: #3A3730;
+ }
+
+ /*Navigation bar*/
+
+ nav {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     margin: auto;
+     top: 0;
+     padding: 10px 0px;
+     position: fixed;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: #6A736D;
+     font-family: "ShipporiMincho-SemiBold", serif;
+     padding: 0px 10px;
+ }
+
+ nav a:hover,
+ .icons:hover {
+     transform: scale(1.05);
+     color: #9D9652;
+ }
+
+ nav .icons {
+     color: #6A736D;
+ }
+
+
+ /* Banner */
+ .banner {
+     margin: auto;
+     width: 65%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     height: 640px;
+     padding-bottom: 100px;
+ }
+
+ .banner-text {
+     text-align: left;
+     display: flex;
+     justify-content: space-evenly;
+     height: 200px;
+     flex-direction: column;
+ }
+
+ h1 {
+     color: #54594F;
+     font-family: "ShipporiMincho-ExtraBold", serif;
+     font-size: 50px;
+ }
+
+ .banner-text p {
+     color: #9D9652;
+     width: 80%;
+ }
+
+ .banner-options {
+     display: flex;
+     flex-direction: row;
+     text-align: left;
+     font-size: 14px;
+ }
+
+ .banner-options a {
+     margin: 20px 50px 10px 0px;
+     text-decoration: none;
+ }
+
+ .banner-options div {
+     background-color: #6A736D;
+     color: #F2F2F2;
+     padding: 2px 5px;
+     border-radius: 2px;
+ }
+
+ .banner-options div:hover {
+     background-color: #9D9652;
+ }
+
+ .banner-img {
+     height: 250px;
+     border-radius: 2px;
+ }
+
+
+ /* STYLE FOR ALL SECTIONS*/
+
+
+ .content-section {
+     margin: 0 auto;
+     width: 60%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     margin-bottom: 150px;
+ }
+
+ .subsection-title {
+     width: 40%;
+ }
+
+ .subsection-img {
+     width: 90%;
+     height: inherit;
+     object-fit: cover;
+     padding-top: 20px;
+ }
+
+ .subsection-text {
+     width: 60%;
+     padding-left: 20px;
+     border-left: #72513E 1px solid;
+     text-align: justify;
+ }
+
+ .subsection-text a{
+    color: #3A3730;
+ }
+
+ .content-section h2 {
+     font-family: "ShipporiMincho-Bold";
+     font-size: 45px;
+     color: #9D9652;
+ }
+
+ .content-section li {
+     list-style: none;
+     padding-left: 15px;
+ }
+
+ .span-styling {
+     font-family: "ShipporiMincho-ExtraBold";
+     color: #9D9652;
+ }
+
+
+ .symbols-styling {
+     padding-right: 5px;
+     color: #9D9652;
+ }
+
+
+
+
+
+ /*PROJECTS SECTION*/
+ #projects-section {
+     margin: 0 auto;
+     width: 60%;
+     text-align: justify;
+ }
+
+ #projects-section h2 {
+     font-family: "ShipporiMincho-Bold";
+     font-size: 45px;
+     color: #9D9652;
+     padding-bottom: 20px;
+     border-bottom: #72513E 1px solid;
+ }
+
+ .project-individual {
+     width: 350px;
+     padding: 10px;
+     margin: 20px;
+    
+ }
+
+ .project-individual:hover {
+    translate: 0px -2px ;
 }
 
+ .project-individual h3 {
+     color: #72513E;
+    
+ }
 
-/*Navigation bar*/
+ .projects-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
 
-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    top: 0;
-    padding: 10px 0px;    
-    position: fixed;
-}
+ .projects-options {
+     padding-top: 10px;
 
-nav a {
-    text-decoration: none;
-    color: #6A736D;
-    font-family: "ShipporiMincho-SemiBold", serif;
-    padding: 0px 10px;
-}
+ }
 
-nav a:hover,  .icons:hover{
-    transform: scale(1.05);
-    color: #9D9652;
-}
+ .projects-options a {
+     font-size: 14px;
+     padding-right: 20px;
+        color: #9D9652;
+ }
 
-nav .icons {
-    color:#6A736D;
-}
-
-
-/* Banner */
-.banner {
-    margin: auto;
-    width: 65%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly ;
-    align-items: center;
-    height: 640px;
-    padding-bottom: 100px;
-}
-
-.banner-text {
-text-align: left;
-display: flex;
-justify-content:space-evenly;
-height: 200px;
-flex-direction: column;
-}
-
-h1 {
-    color: #54594F;
-    font-family:  "ShipporiMincho-ExtraBold", serif;
-    font-size: 50px;
-}
-
-.banner-text p{
-color: #9D9652;
-width: 80%;
-}
-
-.banner-options{
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    font-size: 14px;
-}
-
-.banner-options a{
-    margin: 20px 50px 10px 0px;
-    text-decoration: none;
-}
-
-.banner-options div{
-    background-color:#6A736D;
-    color: #F2F2F2;
-    padding: 2px 5px;
-    border-radius: 2px;
-}
-
-.banner-options div:hover{
-    background-color:#9D9652;
-}
-
-.banner-img {
-    height:250px;
-    border-radius: 2px;
-}
-
-
-/* STYLE FOR ALL SECTIONS*/
-.content-section{
-    margin: 0 auto;
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-bottom: 150px;
-}
-
-.subsection-title {
-    width: 40%;
-}
-
-.subsection-img{
-    width: 90%;
-    height: inherit;
-    object-fit: cover;
-    padding-top: 20px;
-}
-
-.subsection-text{
-    width: 60%;
-    padding-left: 20px;
-    border-left: #72513E 1px solid;
-    text-align: justify;
-}
-.content-section h2 {
-    font-family: "ShipporiMincho-Bold";
-    font-size: 45px;
-    color:#9D9652;
-}
-
-.content-section li{
-    list-style: none;
-    padding-left: 15px;
-}
-
-.span-styling{
-    font-family: "ShipporiMincho-ExtraBold";
-    color: #9D9652;
-}
-
-/*CONTACT SECTION*/
-.contact-styling{
-padding-right: 5px;
-color: #9D9652;
-}
+ .programming-languages {
+     color: #9D9652;
+ }
