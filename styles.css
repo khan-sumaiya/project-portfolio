@@ -62,6 +62,7 @@
      top: 0;
      padding: 10px 0px;
      position: fixed;
+     background-color: #F2F2F2;
  }
 
  nav a {
@@ -69,6 +70,7 @@
      color: #6A736D;
      font-family: "ShipporiMincho-SemiBold", serif;
      padding: 0px 10px;
+
  }
 
  nav a:hover,
@@ -164,7 +166,7 @@
      flex-direction: row;
      flex-wrap: nowrap;
      justify-content: space-between;
-     margin-bottom: 150px;
+     padding-top: 150px;
  }
 
  .subsection-title {
@@ -211,15 +213,12 @@
      color: #9D9652;
  }
 
-
-
-
-
  /*PROJECTS SECTION*/
  #projects-section {
      margin: 0 auto;
      width: 60%;
      text-align: justify;
+     padding-top: 150px;
  }
 
  #projects-section h2 {
@@ -276,3 +275,13 @@
  .programming-languages {
      color: #9D9652;
  }
+
+
+ /*FOOTER*/
+footer{
+    text-align: center;
+    align-content: center;
+    font-size: 14px;
+    height: 200px;
+
+}
