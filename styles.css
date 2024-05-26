@@ -50,6 +50,7 @@
      background-color: #F2F2F2;
      font-family: "ShipporiMincho-Regular", sans-serif;
      color: #3A3730;
+     font-size: 16px;
  }
 
  /*Navigation bar*/
@@ -60,7 +61,7 @@
      width: 100%;
      margin: auto;
      top: 0;
-     padding: 10px 0px;
+     padding: 0.625rem 0rem;
      position: fixed;
      background-color: #F2F2F2;
  }
@@ -69,7 +70,7 @@
      text-decoration: none;
      color: #6A736D;
      font-family: "ShipporiMincho-SemiBold", serif;
-     padding: 0px 10px;
+     padding: 0rem 0.625rem;
 
  }
 
@@ -84,7 +85,7 @@
  }
 
 
- /* Banner */
+ /* BANNER */
  .banner {
      margin: auto;
      width: 65%;
@@ -92,22 +93,22 @@
      flex-direction: row;
      justify-content: space-evenly;
      align-items: center;
-     height: 640px;
-     padding-bottom: 100px;
+     height: 40rem;
+     padding-bottom: 6.25rem;
  }
 
  .banner-text {
      text-align: left;
      display: flex;
      justify-content: space-evenly;
-     height: 200px;
+     height: 12.5rem;
      flex-direction: column;
  }
 
  h1 {
      color: #54594F;
      font-family: "ShipporiMincho-ExtraBold", serif;
-     font-size: 50px;
+     font-size: 3.125rem;
  }
 
  .banner-text p {
@@ -119,19 +120,19 @@
      display: flex;
      flex-direction: row;
      text-align: left;
-     font-size: 14px;
+     font-size: 0.875rem;
  }
 
  .banner-options a {
-     margin: 20px 50px 10px 0px;
+     margin: 1.25rem 3.125rem 0.625rem 0rem;
      text-decoration: none;
  }
 
  .banner-options div {
      background-color: #6A736D;
      color: #F2F2F2;
-     padding: 2px 5px;
-     border-radius: 2px;
+     padding: 0.125rem 0.313rem;
+     border-radius: 0.125rem;
  }
 
  .banner-options div:hover {
@@ -139,8 +140,8 @@
  }
 
  .banner-img {
-     height: 250px;
-     border-radius: 2px;
+     height: 15.625rem;
+     border-radius: 0.125rem;
  }
 
  .banner-img:hover {
@@ -151,9 +152,9 @@
   }
   
   @keyframes floating-image {
-    0% {transform: translateY(0);} 
-    50% {transform: translateY(-40px);}
-    100% {transform: translateY(-0px);}
+    0% {transform: translateY(0rem);} 
+    50% {transform: translateY(-2.5rem);}
+    100% {transform: translateY(-0rem);}
   }
 
  /* STYLE FOR ALL SECTIONS*/
@@ -166,7 +167,7 @@
      flex-direction: row;
      flex-wrap: nowrap;
      justify-content: space-between;
-     padding-top: 150px;
+     padding-top: 9.375rem;
  }
 
  .subsection-title {
@@ -177,13 +178,13 @@
      width: 90%;
      height: inherit;
      object-fit: cover;
-     padding-top: 20px;
+     padding-top: 1.25rem;
  }
 
  .subsection-text {
      width: 60%;
-     padding-left: 20px;
-     border-left: #72513E 1px solid;
+     padding-left: 1.25rem;
+     border-left: #72513E 0.0625rem solid;
      text-align: justify;
  }
 
@@ -193,13 +194,13 @@
 
  .content-section h2 {
      font-family: "ShipporiMincho-Bold";
-     font-size: 45px;
+     font-size: 2.813rem;
      color: #9D9652;
  }
 
  .content-section li {
      list-style: none;
-     padding-left: 15px;
+     padding-left: 0.9375rem;
  }
 
  .span-styling {
@@ -209,7 +210,7 @@
 
 
  .symbols-styling {
-     padding-right: 5px;
+     padding-right: 0.313rem;
      color: #9D9652;
  }
 
@@ -218,27 +219,27 @@
      margin: 0 auto;
      width: 60%;
      text-align: justify;
-     padding-top: 150px;
+     padding-top: 9.375rem;
  }
 
  #projects-section h2 {
      font-family: "ShipporiMincho-Bold";
-     font-size: 45px;
+     font-size: 2.813rem;
      color: #9D9652;
-     padding-bottom: 20px;
-     border-bottom: #72513E 1px solid;
+     padding-bottom: 1.25rem;
+     border-bottom: #72513E 0.0625rem solid;
  }
 
  .project-individual {
-     width: 350px;
-     padding: 10px;
-     margin: 20px;
+     width: 21.875rem;
+     padding: 0.625rem;
+     margin: 1.25rem;
     
  }
 
   @keyframes floating-project {
     0% {transform: translateY(0);} 
-    50% {transform: translateY(-15px);}
+    50% {transform: translateY(-0.938rem);}
     100% {transform: translateY(-0px);}
  }
 
@@ -262,13 +263,13 @@
  }
 
  .projects-options {
-     padding-top: 10px;
+     padding-top: 0.625rem;
 
  }
 
  .projects-options a {
-     font-size: 14px;
-     padding-right: 20px;
+     font-size: 0.875rem;
+     padding-right: 1.25rem;
         color: #9D9652;
  }
 
@@ -285,3 +286,228 @@ footer{
     height: 200px;
 
 }
+
+/*MAX 1024px SCREEN SIZE */
+@media screen and (max-width: 1024px) {
+    body{
+        font-size: 0.8rem;
+    }
+
+    .banner{
+        height: 40rem;
+    }
+
+    .banner-img{
+        height: 11.5rem;
+    }
+
+    .banner-text{
+        height: 9.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .banner-options{
+        font-size: 0.7rem;
+    }
+
+    .content-section h2, #projects-section h2{
+        font-size: 2rem;
+    }
+
+    #projects-section h2{
+        padding-bottom: 0.5rem;
+    }
+
+    .project-individual{
+        padding: 0rem;
+        width: 15rem;
+    }
+
+    .projects-options span{
+        font-size: 0.55rem;
+    }
+
+    .projects-options a{
+        font-size: 0.7rem;
+    }
+
+    footer{
+        font-size: 0.65rem;
+        padding-top: 2rem;
+        height: 10rem;
+    }
+}
+
+/*MAX 768px SCREEN SIZE vertical
+@media screen and (max-width:768px) {
+    body{
+        font-size: 0.7rem;
+    }
+
+header{
+    border-bottom:0.01rem solid #54594F ;
+}
+
+    .banner{
+        height: 35rem;
+        width: 85%;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+    }
+
+    .banner-img{
+        height: 11rem;
+    }
+
+    @keyframes floating-image {
+        0% {transform: translateY(0rem);} 
+        50% {transform: translateY(-1rem);}
+        100% {transform: translateY(-0rem);}
+      }
+
+    .banner-text{
+        height: 9.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .banner-options{
+        font-size: 0.6rem;
+    }
+
+    .banner-options a{
+        margin: 0.5rem 3rem 0.625rem 0rem;
+    }
+
+    .content-section, #projects-section{
+        width: 75%;
+        padding-top: 5rem;
+    }
+
+    .content-section h2, #projects-section h2{
+        font-size: 2rem;
+    }
+
+    #projects-section h2{
+        padding-bottom: 0.5rem;
+    }
+
+    .project-individual{
+        padding: 0rem;
+        width: 15rem;
+    }
+
+    .projects-options span{
+        font-size: 0.55rem;
+    }
+
+    .projects-options a{
+        font-size: 0.65rem;
+    }
+
+    footer{
+        font-size: 0.5rem;
+        margin-top: 3rem;
+        padding-top: 1rem;
+        height: 5rem;
+        border-top: #54594F solid 0.01rem;
+    }
+}
+
+/*MAX 425px SCREEN SIZE
+@media only screen and (max-width:425px){
+    body{
+        font-size: 0.5rem;
+    }
+
+header{
+    border-bottom:0.01rem solid #54594F ;
+}
+
+    .banner{
+        height: 30rem;
+        width: 90%;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner p{
+        width: 100%;
+    }
+
+    .banner-img{
+        visibility: hidden;
+        width: 0rem;
+    }
+
+    @keyframes floating-image {
+        0% {transform: translateY(0rem);} 
+        50% {transform: translateY(-1rem);}
+        100% {transform: translateY(-0rem);}
+      }
+
+    .banner-text{
+        height: 6rem;
+        text-align: center;
+        width: 100%;
+    }
+
+ 
+
+    .banner-options{
+        font-size: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
+
+    .banner-options a{
+        margin: 1rem;
+        
+    }
+
+
+    .content-section, #projects-section{
+        width: 80%;
+        padding-top: 3rem;
+    }
+
+    .content-section h2, #projects-section h2{
+        font-size: 1.2rem;
+    }
+
+    #projects-section h2{
+        padding-bottom: 0.2rem;
+    }
+
+    .project-individual{
+        padding: 0rem;
+        width: 25rem;
+    }
+
+    .projects-options span{
+        font-size: 0.4rem;
+    }
+
+    .projects-options a{
+        font-size: 0.5rem;
+    }
+
+    footer{
+        font-size: 0.4rem;
+        margin-top: 3rem;
+        padding-top: 1rem;
+        height: 2rem;
+        border-top: #54594F solid 0.01rem;
+    }
+}*/
