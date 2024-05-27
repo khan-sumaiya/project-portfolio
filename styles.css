@@ -245,7 +245,7 @@
     100% {transform: translateY(-0px);}
  }
 
- .project-individual:hover {
+ .project-description:hover {
     /*translate: 0px -2px ;*/
     animation-name: floating-project;
     animation-duration: 3.5s;
