@@ -157,8 +157,10 @@
     100% {transform: translateY(-0rem);}
   }
 
- /* STYLE FOR ALL SECTIONS*/
 
+
+
+ /* STYLE FOR ALL SECTIONS*/
 
  .content-section {
      margin: 0 auto;
@@ -287,8 +289,84 @@ footer{
 
 }
 
+/*min screen-width = 2650px*/
+@media  screen and (min-width: 2560px) {
+    body{
+        font-size: 2rem;
+    }
 
-/*MAX 1024px SCREEN SIZE */
+    nav a {
+        padding: 0rem 2rem;
+    }
+
+    .banner{
+        height: 100rem;
+        width: 80%;
+    }
+
+    .banner-img{
+        height: 32rem;
+    }
+
+    .banner-text{
+        height: 30rem;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    .banner-options{
+        font-size: 1.8rem;
+    }
+
+    @keyframes floating-project {
+        0% {transform: translateY(0);} 
+        50% {transform: translateY(-5rem);}
+        100% {transform: translateY(-0px);}
+     }
+
+    .content-section, #projects-section {
+        width: 75%;
+        padding-top: 25rem;
+    }
+
+    .content-section h2, #projects-section h2{
+        font-size: 6rem;
+    }
+
+    #projects-section h2{
+        padding-bottom: 2.5rem;
+        border-bottom: #72513E 0.0625rem solid;
+        margin-bottom: 3rem;
+    }
+
+    .project-individual{
+        padding: 4rem 0rem;
+        width: 50rem;
+    }
+
+    .projects-options span{
+        font-size: 2.2rem;
+    }
+
+    .projects-options a{
+        font-size: 1.7rem;
+        padding-right: 3rem;
+    }
+
+    .symbols-styling {
+        padding-right: 1.1rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        padding-top: 10rem;
+        height: 10rem;
+    }
+}
+
+/*max screen-width = 1024px */
 @media screen and  (max-width: 1024px) {
     body{
         font-size: 0.8rem;
@@ -342,7 +420,7 @@ footer{
     }
 }
 
-/*MAX 768px SCREEN SIZE*/
+/*max screen-width = 768px*/
 @media screen and (max-width:768px){
     body{
         font-size: 0.7rem;
@@ -420,7 +498,8 @@ header{
     }
 }
 
-/*MAX 425px SCREEN SIZE*/
+/*max screen-width = 475px
+    min screen- width = 320px*/
 @media screen and (min-width:320px) and (max-width:475px){
     body{
         font-size: 0.5rem;
