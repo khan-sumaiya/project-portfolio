@@ -600,3 +600,67 @@ header{
     font-size: 1.5rem;
 }
 
+form{
+    padding-top: 0.5rem;
+
+}
+
+.form-container{
+    width: 60%;
+    margin: 7.5rem auto;
+    display: flex;
+    flex-direction: row;
+    height:20rem;
+}
+
+.form-left{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #9D9652;
+}
+
+.form-bottom{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: "ShipporiMincho-Medium";
+    width: 100%;
+    padding-top: 1rem;
+}
+
+form label{
+    font-size: 1rem;
+    font-family: "ShipporiMincho-Medium";
+}
+
+.form-inputs {
+    width: 20rem;
+    height: 1.5rem;
+    margin:0.5rem 0rem 1.5rem 0rem;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 0.08rem;
+}
+
+.form-inputs:hover{
+    background-color: #737329a1;
+}
+
+.form-buttons:hover{
+    color: #F2F2F2;
+    background-color: #72513E;
+}
+
+.form-buttons{
+    width: 4rem;
+    font-family: "ShipporiMincho-SemiBold";
+    background-color: #F2F2F2;
+    color: #72513E;
+    border: none;
+    border-radius: 0.08rem;
+    padding-bottom: 0.2rem;
+}
+
