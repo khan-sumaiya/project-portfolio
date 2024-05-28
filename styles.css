@@ -664,3 +664,34 @@ form label{
     padding-bottom: 0.2rem;
 }
 
+img{
+    height: 30rem;
+}
+
+.form-img{
+    height: 30rem;
+    object-fit: cover;
+}
+  
+
+.illustration-credits{
+    visibility: hidden;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    background-color: #9d96525a;
+    border-radius: 0.06rem;
+    align-items: center;
+    animation-name: fadingIn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+@keyframes fadingIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.form-img:hover .illustration-credits{
+    visibility: visible;
+}
