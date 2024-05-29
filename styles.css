@@ -279,6 +279,109 @@
      color: #9D9652;
  }
 
+ /*CONVERSATION.HTML*/
+
+.return-homepage span{
+    font-size: 1.5rem;
+}
+
+form{
+    padding-top: 0.5rem;
+
+}
+
+.form-container{
+    width: 60%;
+    margin: 7.5rem auto;
+    display: flex;
+    flex-direction: row;
+    height:20rem;
+    background-color: #9D9652;
+}
+
+.form-left{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #9D9652;
+}
+
+.form-bottom{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: "ShipporiMincho-Medium";
+    width: 100%;
+    padding-top: 1rem;
+}
+
+form label{
+    font-size: 1rem;
+    font-family: "ShipporiMincho-Medium";
+}
+
+.form-inputs {
+    width: 20rem;
+    height: 1.5rem;
+    margin:0.5rem 0rem 1.5rem 0rem;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 0.08rem;
+}
+
+.form-inputs:hover{
+    background-color: #737329a1;
+}
+
+.form-buttons:hover{
+    color: #F2F2F2;
+    background-color: #72513E;
+}
+
+.form-buttons{
+    width: 4rem;
+    font-family: "ShipporiMincho-SemiBold";
+    background-color: #F2F2F2;
+    color: #72513E;
+    border: none;
+    border-radius: 0.08rem;
+    padding-bottom: 0.2rem;
+}
+
+img{
+    height: 30rem;
+}
+
+.form-img{
+    height: 30rem;
+    object-fit: cover;
+}
+  
+
+.illustration-credits{
+    visibility: hidden;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    background-color: #9d96525a;
+    border-radius: 0.06rem;
+    align-items: center;
+    animation-name: fadingIn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+@keyframes fadingIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.form-img:hover .illustration-credits{
+    visibility: visible;
+}
+
 
  /*FOOTER*/
 footer{
@@ -359,6 +462,112 @@ footer{
         padding-right: 1.1rem;
     }
 
+.return-homepage span{
+    font-size: 3.5rem;
+}
+
+.conversation-navbar a{
+    font-size: 3rem;
+}
+
+form{
+    padding-top: 0.5rem;
+
+}
+
+.form-container{
+    width: 80%;
+    margin: 7.5rem auto;
+    display: flex;
+    flex-direction: row;
+    height:85rem;
+}
+
+.form-left{
+    display: flex;
+    width: 100%;
+    height: 85rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #9D9652;
+}
+
+.form-bottom{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "ShipporiMincho-Medium";
+    width: 100%;
+    padding-top: 1rem;
+}
+
+form label{
+    font-size: 2.5rem;
+    font-family: "ShipporiMincho-Medium";
+}
+
+.form-inputs {
+    width: 50rem;
+    height: 3rem;
+    margin: 0.5rem 0rem 3rem 0rem;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 0.08rem;
+}
+
+.form-inputs:hover{
+    background-color: #737329a1;
+}
+
+.form-buttons:hover{
+    color: #F2F2F2;
+    background-color: #72513E;
+}
+
+.form-buttons{
+    width: 10rem;
+    font-family: "ShipporiMincho-SemiBold";
+    background-color: #F2F2F2;
+    color: #72513E;
+    border: none;
+    border-radius: 0.08rem;
+    padding-bottom: 0.2rem;
+    font-size: 2rem;
+}
+
+img{
+    height: 85rem;
+}
+
+.form-img{
+    height: 85rem;
+    object-fit: cover;
+}
+  
+
+.illustration-credits{
+    visibility: hidden;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    background-color: #9d96525a;
+    border-radius: 0.06rem;
+    align-items: center;
+    animation-name: fadingIn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+@keyframes fadingIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.form-img:hover .illustration-credits{
+    visibility: visible;
+    font-size: 1.5rem;
+}
+
     footer{
         font-size: 1.5rem;
         padding-top: 10rem;
@@ -411,6 +620,22 @@ footer{
 
     .projects-options a{
         font-size: 0.7rem;
+    }
+
+    .return-homepage span{
+        font-size: 1.5rem;
+    }
+
+    .conversation-navbar a{
+        font-size: 1.5rem;
+    }
+
+    .form-container {
+        width: 80%;
+    }
+    
+    .form-img:hover .illustration-credits {
+        font-size: 0.5rem;
     }
 
     footer{
@@ -487,6 +712,58 @@ header{
 
     .projects-options a{
         font-size: 0.65rem;
+    }
+
+    .conversation-navbar a{
+        font-size: 1.3rem;
+    }
+
+    .conversation-navbar a {
+        font-size: 1.2rem;
+    }
+
+
+
+    .form-container {
+        width: 70%;
+    }
+
+    form {
+        padding-top: 1rem;
+    }
+
+
+    .form-left {
+        height: 10rem;
+    }
+
+    .form-bottom {
+        font-size: 0.5rem;
+        padding-top: 2rem;
+    }
+
+    
+form label {
+    font-size: 0.8rem;
+}
+
+.form-buttons {
+    width: 2rem;
+    font-size: 0.8rem;
+}
+
+.form-img{
+    height: 20rem;
+}
+
+img {
+    height: 20rem;
+}
+
+    .form-inputs {
+        width: 12rem;
+        height: 0.9rem;
+        margin: 0.5rem 0rem 0.5rem 0rem;
     }
 
     footer{
@@ -583,6 +860,52 @@ header{
         font-size: 0.5rem;
     }
 
+    .return-homepage span {
+        font-size: 1.1rem;
+    }
+
+    .conversation-navbar a {
+        font-size: 0.9rem;
+    }
+
+    .form-container {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-left {
+        height: 17rem;
+    }
+
+    form label {
+        font-size: 0.6rem;
+    }
+
+    .form-inputs {
+        width: 5rem;
+        height: 0.6rem;
+        margin: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .form-buttons {
+        width: 1.5rem;
+        font-size: 0.5rem;
+    }
+
+    .form-bottom {
+        font-size: 0.4rem;
+        padding-top: 0.5rem;
+    }
+
+    .form-img {
+        height: 13.3rem;
+    }
+
+    img {
+        height: 10rem;
+    }
+
     footer{
         font-size: 0.4rem;
         margin-top: 3rem;
@@ -594,104 +917,3 @@ header{
 
 
 
-/*CONVERSATION.HTML*/
-
-.return-homepage span{
-    font-size: 1.5rem;
-}
-
-form{
-    padding-top: 0.5rem;
-
-}
-
-.form-container{
-    width: 60%;
-    margin: 7.5rem auto;
-    display: flex;
-    flex-direction: row;
-    height:20rem;
-}
-
-.form-left{
-    display: flex;
-    width: 100%;
-    height: 30rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #9D9652;
-}
-
-.form-bottom{
-    font-size: 0.7rem;
-    text-align: center;
-    font-family: "ShipporiMincho-Medium";
-    width: 100%;
-    padding-top: 1rem;
-}
-
-form label{
-    font-size: 1rem;
-    font-family: "ShipporiMincho-Medium";
-}
-
-.form-inputs {
-    width: 20rem;
-    height: 1.5rem;
-    margin:0.5rem 0rem 1.5rem 0rem;
-    border: none;
-    background-color: #F2F2F2;
-    border-radius: 0.08rem;
-}
-
-.form-inputs:hover{
-    background-color: #737329a1;
-}
-
-.form-buttons:hover{
-    color: #F2F2F2;
-    background-color: #72513E;
-}
-
-.form-buttons{
-    width: 4rem;
-    font-family: "ShipporiMincho-SemiBold";
-    background-color: #F2F2F2;
-    color: #72513E;
-    border: none;
-    border-radius: 0.08rem;
-    padding-bottom: 0.2rem;
-}
-
-img{
-    height: 30rem;
-}
-
-.form-img{
-    height: 30rem;
-    object-fit: cover;
-}
-  
-
-.illustration-credits{
-    visibility: hidden;
-    font-size: 0.7rem;
-    padding: 0.2rem;
-    background-color: #9d96525a;
-    border-radius: 0.06rem;
-    align-items: center;
-    animation-name: fadingIn;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    transition-timing-function: ease;
-}
-
-@keyframes fadingIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-.form-img:hover .illustration-credits{
-    visibility: visible;
-}
