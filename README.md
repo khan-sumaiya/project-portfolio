@@ -1,4 +1,4 @@
-# Project-Portfolio
+# Project-Portfolio<br>
 ![Picture of the website on various viewports](readme-images/portfolio-different-viewports.jpg)
 
 ## Overview.
@@ -11,25 +11,25 @@ The website comprises of 2 pages: the home page and the form page (through which
 
 ### Home page
 #### 1)  navbar
-- At the very top of the page, the navbar comprises of links that anchor to different sections of the webpage (home, about, contact and projects). When one of themis clicked, it scrolls down to the corresponding section:
-![Picture of the navbar of home page](readme-images/main-navbar-items.jpg)
-- Following that, the LinkedIn and GitHub icons are links that takes the user to my LinkedIn and GitHub profile:
-![Picture of the navbar of home page](readme-images/main-navbar-links.jpg)
-- The pencil icon anchors the form page, which is separate from the home page:
-![Picture of the navbar of home page](readme-images/main-navbar-form-link.jpg)
+- At the very top of the page, the navbar comprises of links that anchor to different sections of the webpage (home, about, contact and projects). When one of themis clicked, it scrolls down to the corresponding section:<br>
+![Picture of the navbar of home page](readme-images/main-navbar-items.jpg) <br><br>
+- Following that, the LinkedIn and GitHub icons are links that takes the user to my LinkedIn and GitHub profile:<br>
+![Picture of the navbar of home page](readme-images/main-navbar-links.jpg)<br><br>
+- The pencil icon anchors the form page, which is separate from the home page:<br>
+![Picture of the navbar of home page](readme-images/main-navbar-form-link.jpg)<br>
 
 ### 2) banner
 - In the banner, there are two buttons and when clicked:
   1) "let's talk" button = takes user to the form page, where they can enter their details and the message.
-  2) "see my work" button = page scrolls down to the projects section.
+  2) "see my work" button = page scrolls down to the projects section.<br>
 ![Picture of the navbar of home page](readme-images/banner-options.jpg)
 
 ### 3) contact section
-- Clicking on "Sumaiya Khan" takes user to my LinkedIn profile.
+- Clicking on "Sumaiya Khan" takes user to my LinkedIn profile.<br>
 ![Picture of the contact sections in home page](readme-images/contact-linkedin-link.jpg)
 
 ### 4) projects section
-- Project section comprises of a list of my previous projects, each project has its GitHub repository and the live webpage anchored below the project description.
+- Project section comprises of a list of my previous projects, each project has its GitHub repository and the live webpage anchored below the project description.<br>
 ![Picture of a project description and links in home page](readme-images/project-links.jpg)
 
 <hr>
@@ -58,5 +58,5 @@ The website comprises of 2 pages: the home page and the form page (through which
 The illustrations used in the website were sourced from Pinterest.
 
 ## Contact
-Sumaiya Khan
+Sumaiya Khan <br>
 sumaiya16khan@gmail.com
