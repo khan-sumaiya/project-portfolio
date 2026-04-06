@@ -57,6 +57,3 @@ The website comprises of 2 pages: the home page and the form page (through which
 ## Media
 The illustrations used in the website were sourced from Pinterest.
 
-## Contact
-Sumaiya Khan <br>
-sumaiya16khan@gmail.com
